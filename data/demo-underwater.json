@@ -1,0 +1,280 @@
+{
+  "id": "demo-underwater-v1",
+  "createdAt": "2026-07-16T12:00:00.000Z",
+  "updatedAt": "2026-07-16T12:10:00.000Z",
+  "question": "Could humans live underwater?",
+  "level": "high_school",
+  "durationMinutes": 10,
+  "routes": [
+    {
+      "id": "survive-pressure",
+      "title": "Survive the Pressure",
+      "hook": "Build a causal model of how depth changes the conditions people and structures face.",
+      "lens": "understand",
+      "activityType": "causal model",
+      "estimatedMinutes": 8,
+      "iconKey": "pressure"
+    },
+    {
+      "id": "design-habitat",
+      "title": "Design the Habitat",
+      "hook": "Design a home for 100 people while balancing life support, logistics, and ocean impact.",
+      "lens": "create",
+      "activityType": "systems design",
+      "estimatedMinutes": 10,
+      "iconKey": "habitat"
+    },
+    {
+      "id": "protect-ocean",
+      "title": "Protect the Ocean",
+      "hook": "Challenge the idea that settlement is progress by auditing its effects on a living ecosystem.",
+      "lens": "challenge",
+      "activityType": "ecosystem tradeoff audit",
+      "estimatedMinutes": 9,
+      "iconKey": "reef"
+    }
+  ],
+  "selectedRouteId": "design-habitat",
+  "quest": {
+    "routeId": "design-habitat",
+    "timeBudget": {
+      "totalMinutes": 10,
+      "steps": {
+        "choose": 1,
+        "predict": 1,
+        "investigate": 2,
+        "create": 3,
+        "reflect": 2,
+        "branch": 1
+      }
+    },
+    "drivingQuestion": "What would make a permanent underwater habitat viable for 100 people rather than merely survivable for a short visit?",
+    "predictionPrompt": "Which constraint will be hardest to solve for a permanent underwater habitat: pressure, oxygen, energy, food, maintenance, or psychology? Explain your first guess.",
+    "investigationPrompt": "Compare your prediction with evidence from ocean engineering, an operating undersea laboratory, and closed-loop life-support systems.",
+    "creationChallenge": "Make one evidence-driven design decision for a 100-person underwater habitat: choose a shallow operating depth and one surface-linked support strategy, then name one tradeoff.",
+    "constraints": [
+      "Choose a shallow operating depth and one surface-linked support strategy.",
+      "Use one Evidence Lens finding to explain the choice and name one tradeoff or unresolved risk."
+    ],
+    "completionCriteria": [
+      "State the depth and support choice, the finding that informed it, and one tradeoff or unresolved risk."
+    ],
+    "safetyNote": "Keep this as a browser-based design thought experiment; do not attempt diving, pressure, electrical, or life-support experiments.",
+    "hint": "Separate the problem of resisting outside water pressure from the problem of keeping the inside environment reliable every day."
+  },
+  "prediction": "Pressure will be hardest because the structure must resist the ocean pushing on it continuously, and any crack could threaten everyone inside.",
+  "evidence": {
+    "items": [
+      {
+        "id": "pressure-depth",
+        "kind": "evidence",
+        "statement": "NOAA reports that pressure rises by one atmosphere for about every 10 meters of ocean depth.",
+        "sourceIds": ["noaa-pressure"]
+      },
+      {
+        "id": "aquarius-dependence",
+        "kind": "evidence",
+        "statement": "FIU's Aquarius lab supports up to six crew and relies on a surface buoy for power, air, and data.",
+        "sourceIds": ["fiu-aquarius"]
+      },
+      {
+        "id": "closed-loop-systems",
+        "kind": "inference",
+        "statement": "Because NASA treats atmosphere, water, waste, and oxygen as one linked life-support system, an underwater settlement would need redundancy across the whole loop, not just a strong shell.",
+        "sourceIds": ["nasa-eclss"]
+      },
+      {
+        "id": "settlement-unknowns",
+        "kind": "open_question",
+        "statement": "How much outside resupply and maintenance would a 100-person habitat need over several years?",
+        "sourceIds": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "noaa-pressure",
+        "title": "How does pressure change with ocean depth?",
+        "url": "https://oceanservice.noaa.gov/facts/pressure.html",
+        "domain": "oceanservice.noaa.gov"
+      },
+      {
+        "id": "fiu-aquarius",
+        "title": "Aquarius Reef Base Facilities and Vessels",
+        "url": "https://environment.fiu.edu/aquarius/working-with-aquarius/facilities-vessels/",
+        "domain": "environment.fiu.edu"
+      },
+      {
+        "id": "nasa-eclss",
+        "title": "Environmental Control and Life Support Systems",
+        "url": "https://www.nasa.gov/reference/environmental-control-and-life-support-systems-eclss/",
+        "domain": "nasa.gov"
+      }
+    ],
+    "conciseExplanation": "Pressure is a major structural constraint, but existing undersea and space habitats show that daily survival also depends on connected support systems. Scaling from a six-person research lab to a permanent community of 100 changes the problem: redundancy, repair, food, waste, and surface dependence become continuous design pressures.",
+    "uncertaintyNote": "These sources document pressure, current habitat operations, and life-support technology; they do not prove that a self-sufficient 100-person settlement is feasible."
+  },
+  "evidenceDecision": {
+    "evidenceItemId": "aquarius-dependence",
+    "relationship": "complicates",
+    "establishes": "The selected finding and its cited sources establish that Aquarius can support up to six crew while relying on surface power, air, and data.",
+    "unresolved": "A 100-person habitat's safety and independence remain unresolved.",
+    "impact": "That complicates my pressure-first prediction because surface dependence is another major constraint."
+  },
+  "evidenceApplication": {
+    "evidenceItemId": "aquarius-dependence",
+    "designChoice": "Because Aquarius relies on surface systems, my design accepts regular deliveries and adds a detachable service module for safer maintenance.",
+    "artifactAnchor": "regular deliveries"
+  },
+  "artifact": "At 20 meters, I would use a surface-linked support module with regular deliveries and a detachable service dock. Aquarius shows that a small habitat can depend on surface power, air, and data, so I would not claim independence. The tradeoff is more reliable repairs and resupply, but dependence on surface infrastructure remains a risk.",
+  "reflectionInput": {
+    "usedToThink": "I used to think pressure was the only serious obstacle because the ocean could crush the habitat.",
+    "nowThink": "Now I think maintenance, food, and redundant life support may be harder over time because every system depends on the others.",
+    "stillWonder": "I still wonder whether an underwater habitat could ever become mostly self-sufficient without harming the surrounding ecosystem."
+  },
+  "reflectionResult": {
+    "specificFeedback": "Your evidence judgment (complicates): That complicates my pressure-first prediction because surface dependence is another major constraint. Evidence used: FIU's Aquarius lab supports up to six crew and relies on a surface buoy for power, air, and data. Still unresolved: A 100-person habitat's safety and independence remain unresolved. Evidence-to-design link: Because Aquarius relies on surface systems, my design accepts regular deliveries and adds a detachable service module for safer maintenance. Your creation: At 20 meters, I would use a surface-linked support module with regular deliveries and a detachable service dock. Still wondering: whether an underwater habitat could ever become mostly self-sufficient without harming the surrounding ecosystem.",
+    "discoverySummary": "A permanent underwater habitat is not one pressure-proof shell; it is a repairable network whose life-support, logistics, food, energy, and ecosystem effects must remain reliable together.",
+    "changedThinking": "The learner treated the Aquarius finding and its cited sources as evidence that a small crew can depend on surface systems without treating them as proof that a 100-person settlement would be safe or independent. That limitation complicated the pressure-first prediction and shifted the model toward maintenance, food, and redundant life support as a connected system.",
+    "keyTradeoff": "More surface access reduces isolation and repair risk, but it also limits self-sufficiency and adds dependence on external infrastructure.",
+    "newQuestions": [
+      "What depth best balances lower pressure with protection from storms and surface traffic?",
+      "How much food could 100 residents grow without using more energy than the habitat can reliably produce?",
+      "Which ecosystem signals should force the habitat to reduce or stop operations?"
+    ],
+    "mapDeltas": [
+      {
+        "nodeId": "reflection",
+        "kind": "reflection",
+        "label": "Changed model",
+        "detail": "Long-term reliability is a connected systems problem.",
+        "parentNodeId": "creation"
+      },
+      {
+        "nodeId": "next-question-1",
+        "kind": "next_question",
+        "label": "What depth balances pressure, storms, and access?",
+        "parentNodeId": "reflection"
+      },
+      {
+        "nodeId": "next-question-2",
+        "kind": "next_question",
+        "label": "How much food can the habitat grow within its energy budget?",
+        "parentNodeId": "reflection"
+      },
+      {
+        "nodeId": "next-question-3",
+        "kind": "next_question",
+        "label": "Which ecosystem signals should stop operations?",
+        "parentNodeId": "reflection"
+      }
+    ]
+  },
+  "selectedNextQuestionId": "next-question-3",
+  "map": {
+    "nodes": [
+      {
+        "id": "question",
+        "kind": "question",
+        "label": "Could humans live underwater?"
+      },
+      {
+        "id": "route",
+        "kind": "route",
+        "label": "Design the Habitat",
+        "detail": "Design a home for 100 people while balancing life support, logistics, and ocean impact."
+      },
+      {
+        "id": "prediction",
+        "kind": "prediction",
+        "label": "Initial prediction",
+        "detail": "Pressure will be hardest because the structure must resist the ocean pushing on it continuously, and any crack could threaten everyone inside."
+      },
+      {
+        "id": "evidence",
+        "kind": "evidence",
+        "label": "Complicates prediction — The selected finding and its cited sources establish…",
+        "detail": "Selected finding: FIU's Aquarius lab supports up to six crew and relies on a surface buoy for power, air, and data. Sources: Aquarius Reef Base Facilities and Vessels (environment.fiu.edu)."
+      },
+      {
+        "id": "creation",
+        "kind": "creation",
+        "label": "Learner creation",
+        "detail": "A 20-meter habitat using surface-linked support, regular deliveries, and a detachable service dock; the tradeoff is dependable repair versus surface dependence."
+      },
+      {
+        "id": "reflection",
+        "kind": "reflection",
+        "label": "Changed model",
+        "detail": "The learner shifted from pressure as the only obstacle to long-term reliability as a connected systems problem."
+      },
+      {
+        "id": "next-question-1",
+        "kind": "next_question",
+        "label": "What depth best balances lower pressure with protection from storms and surface traffic?"
+      },
+      {
+        "id": "next-question-2",
+        "kind": "next_question",
+        "label": "How much food could 100 residents grow without using more energy than the habitat can reliably produce?"
+      },
+      {
+        "id": "next-question-3",
+        "kind": "next_question",
+        "label": "Which ecosystem signals should force the habitat to reduce or stop operations?"
+      }
+    ],
+    "edges": [
+      {
+        "id": "question-to-route",
+        "source": "question",
+        "target": "route",
+        "label": "chose"
+      },
+      {
+        "id": "route-to-prediction",
+        "source": "route",
+        "target": "prediction",
+        "label": "predicted"
+      },
+      {
+        "id": "prediction-to-evidence",
+        "source": "prediction",
+        "target": "evidence",
+        "label": "investigated"
+      },
+      {
+        "id": "evidence-to-creation",
+        "source": "evidence",
+        "target": "creation",
+        "label": "created"
+      },
+      {
+        "id": "creation-to-reflection",
+        "source": "creation",
+        "target": "reflection",
+        "label": "reflected"
+      },
+      {
+        "id": "reflection-to-next-question-1",
+        "source": "reflection",
+        "target": "next-question-1",
+        "label": "still wonders"
+      },
+      {
+        "id": "reflection-to-next-question-2",
+        "source": "reflection",
+        "target": "next-question-2",
+        "label": "still wonders"
+      },
+      {
+        "id": "reflection-to-next-question-3",
+        "source": "reflection",
+        "target": "next-question-3",
+        "label": "I’ll explore next"
+      }
+    ]
+  },
+  "mode": "seeded_fallback",
+  "seededDisclosure": "Demo quest loaded from a pre-generated sample because live generation was unavailable.",
+  "step": "branch"
+}

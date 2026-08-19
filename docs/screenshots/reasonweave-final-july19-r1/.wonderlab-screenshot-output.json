@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "owner": "wonderlab-screenshot-output-v1",
+  "sourceSha": "f811aa22144e1043bfd9dfbf281404c833dac572",
+  "outputDir": "docs/screenshots/reasonweave-final-july19-r1",
+  "releaseIdentity": {
+    "path": "config/release-identity.json",
+    "sha256": "ca591879188d683addeca28d929bb338af9a6a1bb663ee50b8f6eb38a5f8f52d",
+    "displayName": "ReasonWeave",
+    "slug": "reasonweave"
+  }
+}

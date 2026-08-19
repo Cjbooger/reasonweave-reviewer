@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">ReasonWeave technical proof board</title>
+  <desc id="description">Four locally tested server boundaries, seeded ReasonWeave application and release-tooling proof at commit DAC76A2, application-owned learning safeguards, and a concrete Codex education contribution. Credentialed live-model evaluation and deployment remain open gates.</desc>
+  <defs>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#0b2435" flood-opacity="0.08" />
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#08747a" />
+    </marker>
+    <style>
+      .ui { font-family: Avenir, "Avenir Next", Inter, Arial, sans-serif; }
+      .display { font-family: "Iowan Old Style", Georgia, serif; }
+      .ink { fill: #0b2435; }
+      .soft { fill: #425966; }
+      .teal { fill: #08747a; }
+      .coral { fill: #b94f2f; }
+      .smallcaps { font-size: 20px; font-weight: 800; letter-spacing: 1.8px; }
+      .boundary-title { font-size: 32px; font-weight: 850; }
+      .boundary-copy { font-size: 23px; font-weight: 650; }
+      .proof-line { font-size: 27px; font-weight: 850; }
+      .proof-detail { font-size: 19px; font-weight: 750; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f4f0e7" />
+  <path d="M0 118 C310 58 530 160 810 100 C1090 38 1320 145 1600 84" fill="none" stroke="#08747a" stroke-opacity="0.09" stroke-width="2" />
+  <path d="M0 775 C300 700 570 820 880 748 C1120 690 1380 806 1600 735" fill="none" stroke="#e96e45" stroke-opacity="0.08" stroke-width="2" />
+
+  <g transform="translate(70 54)">
+    <text class="display ink" font-size="45" font-weight="700">ReasonWeave</text>
+    <text x="2" y="47" class="ui teal smallcaps">OPENAI BUILD WEEK · EDUCATION</text>
+  </g>
+  <g class="ui" text-anchor="end">
+    <text x="1530" y="72" class="ink" font-size="20" font-weight="850">VERIFIED SEEDED CHECKPOINT · DAC76A2</text>
+    <text x="1530" y="102" class="soft" font-size="18">No live-model claim · credentialed run + deployment remain open</text>
+  </g>
+
+  <text x="70" y="180" class="display ink" font-size="60" font-weight="650">Four locally tested server boundaries.</text>
+  <text x="72" y="226" class="ui soft" font-size="28">Configured for GPT-5.6; ReasonWeave keeps the learner responsible for the thinking.</text>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="70" y="276" width="330" height="190" rx="16" fill="#fbf8f1" stroke="#8e9b9b" />
+    <rect x="430" y="276" width="330" height="190" rx="16" fill="#fbf8f1" stroke="#8e9b9b" />
+    <rect x="790" y="276" width="330" height="190" rx="16" fill="#fbf8f1" stroke="#8e9b9b" />
+    <rect x="1150" y="276" width="380" height="190" rx="16" fill="#fbf8f1" stroke="#8e9b9b" />
+  </g>
+
+  <g class="ui">
+    <circle cx="111" cy="320" r="23" fill="#c7e3df" stroke="#08747a" stroke-width="2" />
+    <text x="111" y="328" text-anchor="middle" class="teal" font-size="21" font-weight="850">1</text>
+    <text x="148" y="331" class="ink boundary-title">ROUTES</text>
+    <text x="100" y="383" class="soft boundary-copy">
+      <tspan x="100" dy="0">Three distinct</tspan>
+      <tspan x="100" dy="31">investigation methods</tspan>
+    </text>
+    <text x="100" y="447" class="teal" font-size="17" font-weight="800">/api/routes · structured output</text>
+
+    <circle cx="471" cy="320" r="23" fill="#c7e3df" stroke="#08747a" stroke-width="2" />
+    <text x="471" y="328" text-anchor="middle" class="teal" font-size="21" font-weight="850">2</text>
+    <text x="508" y="331" class="ink boundary-title">QUEST</text>
+    <text x="460" y="383" class="soft boundary-copy">
+      <tspan x="460" dy="0">Finite challenge;</tspan>
+      <tspan x="460" dy="31">prediction stays first</tspan>
+    </text>
+    <text x="460" y="447" class="teal" font-size="17" font-weight="800">/api/quest · safety limits</text>
+
+    <circle cx="831" cy="320" r="23" fill="#c7e3df" stroke="#08747a" stroke-width="2" />
+    <text x="831" y="328" text-anchor="middle" class="teal" font-size="21" font-weight="850">3</text>
+    <text x="868" y="331" class="ink boundary-title">EVIDENCE</text>
+    <text x="820" y="383" class="soft boundary-copy">
+      <tspan x="820" dy="0">Web search;</tspan>
+      <tspan x="820" dy="31">returned citations only</tspan>
+    </text>
+    <text x="820" y="447" class="teal" font-size="17" font-weight="800">/api/evidence · claim labels</text>
+
+    <circle cx="1191" cy="320" r="23" fill="#c7e3df" stroke="#08747a" stroke-width="2" />
+    <text x="1191" y="328" text-anchor="middle" class="teal" font-size="21" font-weight="850">4</text>
+    <text x="1228" y="331" class="ink boundary-title">REFLECT</text>
+    <text x="1180" y="383" class="soft boundary-copy">
+      <tspan x="1180" dy="0">Design-link feedback;</tspan>
+      <tspan x="1180" dy="31">learner chooses one branch</tspan>
+    </text>
+    <text x="1180" y="447" class="teal" font-size="17" font-weight="800">/api/reflect · no grading</text>
+  </g>
+
+  <path d="M400 370 H424" stroke="#08747a" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M760 370 H784" stroke="#08747a" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M1120 370 H1144" stroke="#08747a" stroke-width="3" marker-end="url(#arrow)" />
+
+  <rect x="70" y="502" width="1460" height="78" rx="14" fill="#06283b" />
+  <text x="100" y="535" class="ui" fill="#d9eeea" font-size="17" font-weight="850" letter-spacing="1.2">APPLICATION-OWNED SAFEGUARDS</text>
+  <text x="100" y="565" class="ui" fill="#f9f6ef" font-size="20" font-weight="700">Prediction first · evidence judgment · evidence→design link · learner next-choice · bounded retry · honest fallback</text>
+
+  <g transform="translate(70 620)">
+    <rect width="930" height="205" rx="16" fill="#fbf8f1" stroke="#8e9b9b" />
+    <text x="30" y="35" class="ui coral" font-size="18" font-weight="850" letter-spacing="1.4">CURRENT SEEDED LOCAL GATE · DAC76A2</text>
+    <path d="M466 56 V185" stroke="#8e9b9b" stroke-opacity="0.55" />
+    <g class="ui teal proof-line">
+      <text x="30" y="78">31 TEST FILES · 356 TESTS</text>
+      <text x="30" y="116">142/142 DETERMINISTIC EVALS</text>
+      <text x="500" y="78">PRODUCTION BUILD · PASS</text>
+    </g>
+    <g class="ui ink proof-detail">
+      <text x="30" y="151">10 topics · production-schema checks</text>
+      <text x="30" y="184" font-size="17">Playwright · 16 passes / 32 deliberate skips</text>
+      <text x="500" y="116">Initial · 468746 raw / 116364 gzip</text>
+      <text x="500" y="151">Deferred final · 26724 raw / 9595 gzip</text>
+      <text x="500" y="184" font-size="17">Screenshots · 8/8 byte-stable across two captures</text>
+    </g>
+  </g>
+
+  <g transform="translate(1030 620)">
+    <rect width="500" height="205" rx="16" fill="#c7e3df" fill-opacity="0.45" stroke="#08747a" />
+    <text x="30" y="42" class="ui teal smallcaps">ONE CONCRETE CODEX STORY</text>
+    <text x="30" y="85" class="display ink" font-size="28" font-weight="700">Evidence judgment → design,</text>
+    <text x="30" y="116" class="display ink" font-size="28" font-weight="700">enforced.</text>
+    <text x="30" y="154" class="ui soft" font-size="18" font-weight="650">Three learner claims, then one sourced finding</text>
+    <text x="30" y="182" class="ui soft" font-size="18" font-weight="650">required in both the design and its feedback.</text>
+  </g>
+
+  <text x="70" y="872" class="ui soft" font-size="16">Seeded local proof only · no live-model claim · credentialed evaluation and deployment remain open gates.</text>
+  <text x="1530" y="872" text-anchor="end" class="display ink" font-size="24" font-weight="700">Keep the human responsible for the thinking.</text>
+</svg>

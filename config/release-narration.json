@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "provider": "elevenlabs",
+  "voiceId": "OZxMHsGaBmV5pjMIDIn0",
+  "verificationMode": "user_selected_tts_only"
+}

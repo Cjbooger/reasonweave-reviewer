@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "kind": "wonderlab-screenshot-receipt",
+  "generatedAt": "2026-07-19T18:23:31.239Z",
+  "source": {
+    "fullSha": "f811aa22144e1043bfd9dfbf281404c833dac572",
+    "cleanBeforeCapture": true
+  },
+  "outputDir": "docs/screenshots/reasonweave-final-july19-r1",
+  "releaseIdentity": {
+    "path": "config/release-identity.json",
+    "sha256": "ca591879188d683addeca28d929bb338af9a6a1bb663ee50b8f6eb38a5f8f52d",
+    "displayName": "ReasonWeave",
+    "slug": "reasonweave"
+  },
+  "screenshots": [
+    {
+      "path": "docs/screenshots/reasonweave-final-july19-r1/spark-desktop.jpg",
+      "bytes": 115124,
+      "sha256": "c332faa070305dd5f71f9f9329371b495cfc2c271db19f40ca2afe4d4d9610f2"
+    },
+    {
+      "path": "docs/screenshots/reasonweave-final-july19-r1/routes-desktop.jpg",
+      "bytes": 138427,
+      "sha256": "8ec77d377b1b30c5b674398e3af42ff1dd994345f3b7d0a602384f52a5297fe5"
+    },
+    {
+      "path": "docs/screenshots/reasonweave-final-july19-r1/prediction-desktop.jpg",
+      "bytes": 123821,
+      "sha256": "e7559bb9779a3b29d450a1184f87f7bceef2817d4d44ccaf9e61341446b4f3d1"
+    },
+    {
+      "path": "docs/screenshots/reasonweave-final-july19-r1/evidence-create-desktop.jpg",
+      "bytes": 59362,
+      "sha256": "be86f67588a922aec1ea01961d0828c6e50b967d1422fa085eaba3544f5eebc3"
+    },
+    {
+      "path": "docs/screenshots/reasonweave-final-july19-r1/discovery-desktop.jpg",
+      "bytes": 202314,
+      "sha256": "8b574252b9c5bed5a28fd041d2ab8f5839ba0935ed7e82cb322a54ea013f357b"
+    },
+    {
+      "path": "docs/screenshots/reasonweave-final-july19-r1/discovery-card-desktop.jpg",
+      "bytes": 361838,
+      "sha256": "c90731193a1e0b7f54894f0194de0d6b5c6209202943cb14ee786ecc43d2b3d2"
+    },
+    {
+      "path": "docs/screenshots/reasonweave-final-july19-r1/discovery-mobile.jpg",
+      "bytes": 64790,
+      "sha256": "4c31f4002842416997f1d49e55112d83c5a4cc6a64974660afd8827c1f1b6c80"
+    },
+    {
+      "path": "docs/screenshots/reasonweave-final-july19-r1/discovery-mobile-trace.jpg",
+      "bytes": 61306,
+      "sha256": "618524d1e878fbc8d91387e7293ad0c08b287f9ae619011abe2a3f89665538ef"
+    }
+  ]
+}

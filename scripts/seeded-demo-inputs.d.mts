@@ -1,0 +1,3 @@
+export const SEEDED_EVIDENCE_APPLICATION_CHOICE: string;
+export const SEEDED_EVIDENCE_APPLICATION_ANCHOR: string;
+export const SEEDED_COMPACT_EVIDENCE_NOTE: string;

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "kind": "wonderlab-release-media-receipt",
+  "generatedAt": "2026-07-19T18:24:00.964Z",
+  "releaseDirectory": "reasonweave-final-july19-r1",
+  "releaseIdentity": {
+    "path": "config/release-identity.json",
+    "sha256": "ca591879188d683addeca28d929bb338af9a6a1bb663ee50b8f6eb38a5f8f52d",
+    "displayName": "ReasonWeave",
+    "slug": "reasonweave"
+  },
+  "screenshotEvidence": {
+    "ownerPath": "docs/screenshots/reasonweave-final-july19-r1/.wonderlab-screenshot-output.json",
+    "receiptPath": "docs/screenshots/reasonweave-final-july19-r1/screenshot-receipt.json",
+    "receiptSha256": "ab98d1f14f7fb1c6c2b12ad20c872fe59987a71935a1420d099b7a021b442f30",
+    "releaseScreenshot": {
+      "path": "docs/screenshots/reasonweave-final-july19-r1/discovery-desktop.jpg",
+      "bytes": 202314,
+      "sha256": "8b574252b9c5bed5a28fd041d2ab8f5839ba0935ed7e82cb322a54ea013f357b"
+    },
+    "sourceSha": "f811aa22144e1043bfd9dfbf281404c833dac572"
+  },
+  "mediaFiles": [
+    {
+      "filename": "technical-proof-board.svg",
+      "path": "docs/media/reasonweave-final-july19-r1/technical-proof-board.svg",
+      "bytes": 10104,
+      "sha256": "a9570aa75966d9a20e9c16ad94f1dac8f31a6d59e6c4840e1be28391640f5ee6"
+    },
+    {
+      "filename": "technical-proof-board.png",
+      "path": "docs/media/reasonweave-final-july19-r1/technical-proof-board.png",
+      "bytes": 340572,
+      "sha256": "7ab887e1b4f7c27abb955b7df22d3ea921f4ed48fc1795a053694a9eba86e9c4"
+    },
+    {
+      "filename": "seeded-demo-rehearsal.srt",
+      "path": "docs/media/reasonweave-final-july19-r1/seeded-demo-rehearsal.srt",
+      "bytes": 3199,
+      "sha256": "028718409632f513f1c2b1719839b45ea77ff022b140b37de40cd0ba92ecf668"
+    },
+    {
+      "filename": "youtube-thumbnail.png",
+      "path": "docs/media/reasonweave-final-july19-r1/youtube-thumbnail.png",
+      "bytes": 379625,
+      "sha256": "876787469eb7cb01c4c419706a37a30d7f90db5e9607007cbc1c97586ecebe6e"
+    },
+    {
+      "filename": "seeded-demo-badge.png",
+      "path": "docs/media/reasonweave-final-july19-r1/seeded-demo-badge.png",
+      "bytes": 6090,
+      "sha256": "ac93a9f82f1b5bde0f67d569ccc8b220748c2cf75433f35b22e1ea6e34137044"
+    },
+    {
+      "filename": "closing-card.png",
+      "path": "docs/media/reasonweave-final-july19-r1/closing-card.png",
+      "bytes": 82225,
+      "sha256": "53be2a7c80dd7025424e309158740a70488bdfd18826373132778808964977b0"
+    }
+  ],
+  "publicOg": {
+    "path": "public/reasonweave-og.png",
+    "bytes": 379625,
+    "sha256": "876787469eb7cb01c4c419706a37a30d7f90db5e9607007cbc1c97586ecebe6e"
+  }
+}

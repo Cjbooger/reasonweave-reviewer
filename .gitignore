@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Tests and reports
+coverage/
+playwright-report/
+test-results/
+blob-report/
+output/
+
+# Environment and secrets
+.env*
+!.env.example
+
+# Local tooling
+.DS_Store
+*.log
+*.tsbuildinfo
+.vercel/
+.turbo/
+
+# Finder-created duplicate release previews are local review artifacts. Keep the
+# canonical filenames below under source control and out of capture packages.
+docs/media/closing-card 2.png
+docs/media/seeded-demo-badge 2.png
+docs/media/technical-proof-board 2.png
+docs/media/youtube-thumbnail 2.png
+public/reasonweave-og 2.png
+
+# A failed July 19 screenshot capture was rehydrated by Finder with duplicate
+# filenames after cleanup. The current release uses the fresh `-r1` path.
+docs/screenshots/reasonweave-final-july19/
+
+# Generated visual-design references stay local; final product screenshots are
+# optimized separately before being added to the repository.
+docs/design/concepts/*.png

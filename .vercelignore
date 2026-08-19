@@ -1,0 +1,10 @@
+.env*
+.vercel/
+.next/
+node_modules/
+output/
+coverage/
+playwright-report/
+test-results/
+blob-report/
+docs/design/concepts/

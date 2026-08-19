@@ -1,0 +1,194 @@
+1
+00:00:00,000 --> 00:00:04,000
+Most AI ends curiosity
+with an answer.
+
+2
+00:00:04,000 --> 00:00:08,000
+ReasonWeave makes learner
+thinking visible.
+
+3
+00:00:08,000 --> 00:00:12,000
+This is a clearly labeled,
+pre-generated journey.
+
+4
+00:00:12,000 --> 00:00:16,000
+It is reliable, not a
+live model call.
+
+5
+00:00:16,000 --> 00:00:20,000
+Learners choose a method,
+then build.
+
+6
+00:00:20,000 --> 00:00:24,000
+No account, profile,
+or gradebook is needed.
+
+7
+00:00:24,000 --> 00:00:28,000
+Three methods change
+the investigation.
+
+8
+00:00:28,000 --> 00:00:32,000
+In live mode, GPT-5.6 is configured
+to create these routes.
+
+9
+00:00:32,000 --> 00:00:36,000
+The learner chooses
+the method.
+
+10
+00:00:36,000 --> 00:00:40,000
+They commit to
+a first prediction.
+
+11
+00:00:40,000 --> 00:00:44,000
+Evidence stays locked
+until they do.
+
+12
+00:00:44,000 --> 00:00:48,000
+That preserves
+a genuine before state.
+
+13
+00:00:48,000 --> 00:00:53,000
+The Evidence Lens separates evidence,
+inference, and open questions.
+
+14
+00:00:53,000 --> 00:00:58,000
+Aquarius supports up to six crew
+with surface power, air, and data.
+
+15
+00:00:58,000 --> 00:01:02,500
+That does not prove a larger habitat
+can be independent.
+
+16
+00:01:02,500 --> 00:01:07,000
+The learner writes
+where the source stops.
+
+17
+00:01:07,000 --> 00:01:11,500
+Then they mark how it changes
+their original prediction.
+
+18
+00:01:11,500 --> 00:01:16,000
+One finding becomes
+one design move.
+
+19
+00:01:16,000 --> 00:01:20,000
+The exact anchor is
+regular deliveries.
+
+20
+00:01:20,000 --> 00:01:24,000
+The creation repeats
+regular deliveries.
+
+21
+00:01:24,000 --> 00:01:28,000
+That visible phrase connects
+design to creation.
+
+22
+00:01:28,000 --> 00:01:32,000
+It is a continuity check,
+not grading.
+
+23
+00:01:32,000 --> 00:01:36,000
+The learner names a tradeoff
+and checks visible criteria.
+
+24
+00:01:36,000 --> 00:01:40,000
+Then they finish
+one focused design.
+
+25
+00:01:40,000 --> 00:01:44,500
+Reflection names what changed
+and what remains uncertain.
+
+26
+00:01:44,500 --> 00:01:49,000
+The learner's words stay separate
+from demo feedback.
+
+27
+00:01:49,000 --> 00:01:53,500
+The map makes that reasoning path
+visible.
+
+28
+00:01:53,500 --> 00:01:58,000
+It keeps the learner's language
+in view.
+
+29
+00:01:58,000 --> 00:02:02,800
+The learner selects
+one next question.
+
+30
+00:02:02,800 --> 00:02:07,600
+The final card holds exact sources
+and evidence judgment.
+
+31
+00:02:07,600 --> 00:02:12,400
+It also preserves the design move
+and creation anchor.
+
+32
+00:02:12,400 --> 00:02:17,200
+The complete trace can be
+copied and shared.
+
+33
+00:02:17,200 --> 00:02:22,000
+No grades, accounts,
+or learner profiles.
+
+34
+00:02:22,000 --> 00:02:27,000
+In live mode, OpenAI web search
+returns citations for evidence.
+
+35
+00:02:27,000 --> 00:02:32,000
+GPT-5.6 supports routes, quests,
+evidence, and reflection.
+
+36
+00:02:32,000 --> 00:02:37,000
+Its role is bounded;
+learners decide.
+
+37
+00:02:37,000 --> 00:02:42,000
+Codex made source boundaries
+and evidence-to-design testable.
+
+38
+00:02:42,000 --> 00:02:48,000
+Codex made the creation anchor
+a visible continuity check.
+
+39
+00:02:48,000 --> 00:02:54,000
+ReasonWeave makes reasoning visible
+and keeps humans responsible for it.

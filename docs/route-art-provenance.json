@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-07-16",
+  "generation": {
+    "tool": "Built-in OpenAI image generation tool in the primary Codex build task",
+    "modelFromContentCredential": "gpt-image 2.0",
+    "purpose": "Original WonderLab route illustrations",
+    "unknownOrThirdPartyArtworkUsedAsInput": false
+  },
+  "verification": {
+    "tool": "c2patool 0.26.72",
+    "trustAnchors": "https://raw.githubusercontent.com/c2pa-org/conformance-public/refs/heads/main/trust-list/C2PA-TRUST-LIST.pem",
+    "result": "Trusted",
+    "failureCount": 0,
+    "note": "The preserved source PNGs contain the validated Content Credentials. The optimized WebP derivatives do not carry those credentials and are linked by SHA-256 below."
+  },
+  "derivation": {
+    "library": "sharp 0.34.5",
+    "resize": "1200x800 fill",
+    "format": "WebP",
+    "quality": 88,
+    "effort": 6,
+    "smartSubsample": true
+  },
+  "assets": [
+    {
+      "id": "pressure-gauge",
+      "promptSummary": "Original archival field-journal pressure gauge and subsea pipe junction in WonderLab's navy-teal, ivory, and coral visual language; no text, marks, or third-party references.",
+      "styleInputs": [],
+      "source": {
+        "filename": "pressure-gauge-wonderlab.png",
+        "sha256": "b866ff592fe44094d63e29f258d1b0367e9399dc3eb175eee8c1e2f76f74d9e3",
+        "c2paManifest": "urn:c2pa:760ebff2-70a6-47a2-a8c8-53b44a027ad1",
+        "claimGenerator": "OpenAI Media Service API",
+        "signatureIssuer": "OpenAI OpCo, LLC",
+        "signatureCommonName": "OpenAI Media Service",
+        "signatureTime": "2026-07-16T22:04:49.999671+00:00",
+        "validationState": "Trusted"
+      },
+      "derivative": {
+        "path": "public/images/routes/pressure-gauge-wonderlab.webp",
+        "sha256": "2e3349f109dcd9c2aa11b02567ac6b26cd400300c48ed12068f4464bc1e8fd69",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "id": "habitat-cutaway",
+      "promptSummary": "Original modular underwater-habitat cutaway with commons, living modules, hydroponics, life support, and an observation window; no text or marks.",
+      "styleInputs": [
+        "The generated pressure-gauge output as a style and palette anchor only"
+      ],
+      "source": {
+        "filename": "habitat-cutaway-wonderlab.png",
+        "sha256": "cfc19ea5a0db7999b4299a45ce2fb594d365dff427eb7cb3cd7ab31da5ab8aae",
+        "c2paManifest": "urn:c2pa:2919ec0f-f36f-45ee-908d-d5716f0fb80e",
+        "claimGenerator": "OpenAI Media Service API",
+        "signatureIssuer": "OpenAI OpCo, LLC",
+        "signatureCommonName": "OpenAI Media Service",
+        "signatureTime": "2026-07-16T22:06:31.740749+00:00",
+        "validationState": "Trusted"
+      },
+      "derivative": {
+        "path": "public/images/routes/habitat-cutaway-wonderlab.webp",
+        "sha256": "882a2b84dfda1d1bf3173f0cd985b158d9b14d96321ff77510038db3adf8de99",
+        "width": 1200,
+        "height": 800
+      }
+    },
+    {
+      "id": "ocean-ecosystem",
+      "promptSummary": "Original kelp-forest ecosystem with sea turtle, fish, corals, and a restrained monitoring station; no text or marks.",
+      "styleInputs": [
+        "The generated pressure-gauge and habitat outputs as style and palette anchors only"
+      ],
+      "source": {
+        "filename": "ocean-ecosystem-wonderlab.png",
+        "sha256": "c22327f2eaa5ad2ad6b89f45803f982f4bb6b4719671bb0bfd74dd1dae424bf9",
+        "c2paManifest": "urn:c2pa:3d8ca916-547a-4a32-afa2-bb7161d917b7",
+        "claimGenerator": "OpenAI Media Service API",
+        "signatureIssuer": "OpenAI OpCo, LLC",
+        "signatureCommonName": "OpenAI Media Service",
+        "signatureTime": "2026-07-16T22:08:14.629831+00:00",
+        "validationState": "Trusted"
+      },
+      "derivative": {
+        "path": "public/images/routes/ocean-ecosystem-wonderlab.webp",
+        "sha256": "b884a9c03ba7361082b56ce2ad15becb70f1cdbe16303a8a6be1a61e2276dd1d",
+        "width": 1200,
+        "height": 800
+      }
+    }
+  ]
+}
